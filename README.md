@@ -9,6 +9,38 @@ It tracks vertical cannon movement while RMB is held and draws:
 
 The system uses two branch profiles (`Top Start` and `Bottom Start`) because camera priming/state changes can alter where shots land.
 
+## Setup
+
+### Prerequisites
+
+- Windows (overlay uses Win32 APIs)
+- Python 3.10+ recommended
+
+### Install
+
+From PowerShell:
+
+```powershell
+cd "C:\path\to\CannonDefense"
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+If your PowerShell execution policy blocks activation, run this once in a new terminal:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+
+## Run
+
+From PowerShell (inside the extracted `CannonDefense` folder):
+
+```powershell
+python run_cannon_crosshair.py
+```
+
 ## Quick Start
 
 1. Start Cannon Defense.
