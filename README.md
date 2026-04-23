@@ -24,7 +24,7 @@ If crosshair alignment drifts (while stationary aim no longer matches splash loc
 - You can tune live, then click:
   - **Apply to running overlay** (immediate runtime update)
   - **Save settings.json** (persist changes)
-- Optional right-side drop line is available, but may need per-camera tuning.
+- Optional right-side drop line is available, but has not been thoroughly built/configured, more of an idea I tried, but did not like afterall.
 
 ## Overlay Components
 
