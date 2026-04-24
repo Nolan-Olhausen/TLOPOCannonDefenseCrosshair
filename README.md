@@ -1,3 +1,5 @@
+> Educational purposes only. Respect the game's Terms of Service and use at your own risk.
+
 # Cannon Defense Crosshair Overlay
 
 This tool adds a transparent, click-through aiming overlay for Cannon Defense in TLOPO.
